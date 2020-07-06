@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "subscription": [
+    {
+      "id": 1,
+      "planName": "Basic",
+      "menuItems": {
+        "menu1": "Basic Maps",
+        "menu2": "Basic Analysis",
+        "menu3": "Basic UI",
+      }
+    },
+    {
+      "id": 2,
+      "planName": "Standard",
+      "menuItems": {
+        "menu1": "Standard Maps",
+        "menu2": "Standard Analysis",
+        "menu3": "Standard UI",
+      }
+    },
+    {
+      "id": 3,
+      "planName": "Premium",
+      "menuItems": {
+        "menu1": "Premium Maps",
+        "menu2": "Premium Analysis",
+        "menu3": "Premium UI",
+      }
+    }
+  ]
 }
